@@ -1,0 +1,21 @@
+body {
+    margin : 0;
+    padding-top : 20px;
+    text-align : center;
+}
+
+.gameOfLife ul {
+    margin : 0;
+}
+
+.gameOfLife ul li {
+    display : inline-block;
+    margin : 5px;
+    height : 40px;
+    width : 40px;
+    background-color : #dddddd;
+}
+
+.gameOfLife ul li.alive {
+    background-color : forestgreen;
+}
